@@ -1,0 +1,92 @@
+@use './colors' as *;
+@use './variables' as *;
+
+body {
+  background: url('../assets/Background.png') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  font-family: $font-family;
+  color: white;
+  position: relative;
+
+  &.dark-mode {
+    background-color: #111;
+    color: white;
+  }
+
+  &.light-mode {
+    background-color: #fff;
+    color: #111;
+  }
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+.form-box {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+
+  input {
+    border-radius: $btn-radius;
+  }
+
+  .btn-custom {
+    border-radius: $btn-radius;
+    padding: 10px 0;
+    font-weight: 500;
+  }
+}
+
+.nav-tabs {
+  .nav-link {
+    border: none;
+    font-weight: 600;
+    color: $text-gray;
+
+    &.active {
+      color: black;
+      border-bottom: 2px solid $primary-color;
+    }
+  }
+}
+
+.divider {
+  text-align: center;
+  margin: 10px 0;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: $divider-color;
+  }
+
+  &::before {
+    left: 0;
+  }
+
+  &::after {
+    right: 0;
+  }
+
+  span {
+    padding: 0 10px;
+    color: #999;
+  }
+}

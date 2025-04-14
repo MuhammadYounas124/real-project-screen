@@ -1,0 +1,75 @@
+body {
+  background: url("../assets/Background.png") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+  color: white;
+  position: relative;
+}
+body.dark-mode {
+  background-color: #111;
+  color: white;
+}
+body.light-mode {
+  background-color: #fff;
+  color: #111;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.form-box {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+}
+.form-box input {
+  border-radius: 25px;
+}
+.form-box .btn-custom {
+  border-radius: 25px;
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  font-weight: 600;
+  color: #888;
+}
+.nav-tabs .nav-link.active {
+  color: black;
+  border-bottom: 2px solid #4a00e0;
+}
+
+.divider {
+  text-align: center;
+  margin: 10px 0;
+  position: relative;
+}
+.divider::before, .divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 45%;
+  height: 1px;
+  background-color: #ccc;
+}
+.divider::before {
+  left: 0;
+}
+.divider::after {
+  right: 0;
+}
+.divider span {
+  padding: 0 10px;
+  color: #999;
+}/*# sourceMappingURL=App.css.map */

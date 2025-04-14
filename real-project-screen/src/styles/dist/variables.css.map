@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["variables.scss"],"sourcesContent":["$btn-radius: 25px;\r\n$font-family: 'Segoe UI', sans-serif;\r\n$btn-gradient: linear-gradient(to right, #00c9ff, #92fe9d);\r\n"],"file":"variables.css"}

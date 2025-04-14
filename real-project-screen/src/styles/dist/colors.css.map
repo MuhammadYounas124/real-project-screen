@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["colors.scss"],"sourcesContent":["$primary-color: #4a00e0;\r\n$text-gray: #888;\r\n$divider-color: #ccc;"],"file":"colors.css"}
