@@ -5,10 +5,11 @@ const AuthForm = () => {
   const [activeTab, setActiveTab] = useState<'signup' | 'login'>('signup');
 
   return (
-    <div className="container-fluid h-100 position-relative">
-      <div className="overlay"></div>
-      <div className="row h-100 align-items-center position-relative z-2">
-        <div className="col-md-6 text-white px-5">
+    <div className="container-fluid h-100 d-flex justify-content-center align-items-center position-relative">
+    <div className="overlay"></div>
+    <div className="row w-100 align-items-center z-2">
+      <div className="col-md-6 d-flex flex-column justify-content-center text-white px-5 min-vh-100">
+        <div className="content-box">
           <h1 className="fw-bold">
             We solve digital problems with an outstanding creative flare
           </h1>
@@ -16,8 +17,10 @@ const AuthForm = () => {
             We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.
           </p>
         </div>
-        <div className="col-md-6 d-flex justify-content-center">
-          <div className="form-box shadow bg-light">
+      </div>
+      <div className="col-md-6 d-flex justify-content-center align-items-center min-vh-100">
+        <div className="form-box shadow bg-light">
+  
             <ul className="nav nav-tabs justify-content-center mb-4">
               <li className="nav-item">
                 <button

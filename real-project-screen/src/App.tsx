@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './styles/App.scss'; // 👈 Make sure this path is correct
+import './styles/App.scss';
 import AuthForm from './components/AuthForm';
 
 function App() {
@@ -23,3 +23,4 @@ function App() {
 }
 
 export default App;
+

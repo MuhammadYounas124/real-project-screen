@@ -8,6 +8,7 @@ body {
   font-family: $font-family;
   color: white;
   position: relative;
+  overflow: auto;
 
   &.dark-mode {
     background-color: #111;
@@ -28,8 +29,6 @@ body {
   top: 0;
   left: 0;
 }
-
-
 
 .form-box {
   background-color: white;
