@@ -1,1 +1,1 @@
-{"version":3,"names":[],"mappings":"","sources":["colors.scss"],"sourcesContent":["$primary-color: #4a00e0;\r\n$text-gray: #888;\r\n$divider-color: #ccc;"],"file":"colors.css"}
+{"version":3,"names":[],"mappings":"","sources":["colors.scss"],"sourcesContent":["$primary-color: #4a00e0;\r\n$text-gray: #888;\r\n$divider-color: #ccc;\r\n$dark-bg: #111;\r\n$light-bg: #fff;\r\n$light-text: #111;\r\n$tab-active-color: black;\r\n$divider-text: #999;"],"file":"colors.css"}

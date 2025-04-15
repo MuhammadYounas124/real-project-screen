@@ -11,13 +11,13 @@ body {
   overflow: auto;
 
   &.dark-mode {
-    background-color: #111;
+    background-color: $dark-bg;
     color: white;
   }
 
   &.light-mode {
-    background-color: #fff;
-    color: #111;
+    background-color: $light-bg;
+    color: $light-text;
   }
 }
 
@@ -32,8 +32,8 @@ body {
 
 .form-box {
   background-color: white;
-  border-radius: 12px;
-  padding: 2rem;
+  border-radius: $box-radius;
+  padding: $box-padding;
   width: 100%;
   max-width: 400px;
 
@@ -43,7 +43,7 @@ body {
 
   .btn-custom {
     border-radius: $btn-radius;
-    padding: 10px 0;
+    padding: $btn-padding;
     font-weight: 500;
   }
 }
@@ -55,7 +55,7 @@ body {
     color: $text-gray;
 
     &.active {
-      color: black;
+      color: $tab-active-color;
       border-bottom: 2px solid $primary-color;
     }
   }
@@ -86,6 +86,6 @@ body {
 
   span {
     padding: 0 10px;
-    color: #999;
+    color: $divider-text;
   }
 }
